@@ -14,11 +14,9 @@ fetch(apiUrl)
     const dataContainer = document.getElementById('data-container');
     
     for(let i=0; i<arr.length; i++){
-        dataContainer.innerHTML += `<a href="${arr[i]}">${arr[i]}</a>`;
+        dataContainer.innerHTML += `<a href="${arr[i]}" target="_blank" rel="noopener noreferrer">${arr[i]}</a>`;
         dataContainer.innerHTML += `<br>`;
         dataContainer.innerHTML += `<br>`;
     }
-    // Display data on the webpage
-    // dataContainer.innerHTML = `<a href="${arr[0]}">${arr[0]}</a>`; // Replace with your data formatting
   })
   .catch(error => console.error(error));

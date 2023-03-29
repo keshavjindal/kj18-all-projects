@@ -6,6 +6,7 @@
   }
 
   #data-container a {
-    size: 100px;
+    color: blue;
+    font-size: 200%
   }
   
