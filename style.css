@@ -4,4 +4,8 @@
     background-color: lightgray;
     border-radius: 5px;
   }
+
+  #data-container a {
+    size: 100px;
+  }
   
